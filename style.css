@@ -1,0 +1,549 @@
+*{ 
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+             
+            
+}
+
+.pi{
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 40px;
+color: #fff;
+background-color: #6CB13E;
+text-align: center;
+text-decoration: underline;
+}
+.ma{
+    padding: 20px;
+}
+.man{
+   padding: 20px;
+   display: flex;
+    gap: 600px;
+    margin-left: 20px;
+}
+.sir{
+    display: flex;
+    gap: 10px;
+
+}
+.beee{
+    border-radius: 30px;
+    width: 65px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 15px 4%;
+    background-color: white;
+    width: 100%;
+    
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: flex-end;
+    margin-left: auto;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+
+
+.dropdown {
+    position: relative;
+    font-family: Metropolis, sans-serif;
+font-size: 17px;
+font-weight: 900;
+line-height: 25px;
+color: #111;
+flex-shrink: 0;
+}
+
+
+.dropdown > a{
+    text-decoration: none;
+    color: #343741;
+    font-size: 14px;
+    display: block;
+    padding: 15px 0;
+    white-space: nowrap;
+}
+
+.dropdown > a span {
+    font-size: 13px;
+    color: #777777;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 20px #00000020;
+    border-top: 3px solid #6db33f;
+    z-index: 100;
+    padding: 15px 0;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover > a {
+    color: #6db33f;
+}
+
+
+.menu-group {
+    padding: 8px 20px;
+}
+
+
+
+.menu-group h4 {
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+
+.dropdown-content a {
+    display: block;
+    padding: 9px 0;
+    text-decoration: none;
+    color: #343741;
+    font-size: 13px;
+}
+
+.dropdown-content a:hover {
+    color: #6db33f;
+    background-color: #f5f8f2;
+}
+
+
+
+.nav-button {
+    background-color: #6db33f;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.yy{
+    font-family: Metropolis, sans-serif;
+font-size: 61px;
+font-weight: 790;
+line-height: 58px;
+color: #000;
+}
+.her{
+    height: 600px;
+    background: linear-gradient(90deg, #6ad356, white ,#76da63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ann{
+    position: relative;
+}
+.butt{display: flex;
+justify-content: center;
+gap: 12px;
+margin-top: 25px;}
+
+.why{
+    border: 2px solid black;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+ position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 170px;
+    height: auto;
+
+
+}
+.why::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    inset: 0;
+     transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    z-index: -1;
+    color: white;
+}
+.why:hover::before{
+    transform: translatex(0);
+}
+.why:hover{
+    color: white; 
+}
+.ne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 18px;
+    border-bottom: 1px solid lightgrey;
+}
+.ewa{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.ola{
+    height: 20px;
+    border-left: 1px solid lightgrey;
+}
+.on{
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+color: #086dc3;
+}
+.Wha{
+    font-family: Metropolis, sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 27px;
+color: #000;
+padding: 30px;
+}
+
+.tym{
+    font-family: "Work Sans", sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+color: #000;
+padding-top: 10px;
+}
+.tymE{
+    font-family: "Work Sans", sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+color: #000;
+padding-top: 15px;
+}
+.ai{
+    padding-top: 10px;
+}
+
+
+.spr {
+    padding: 60px 8%;
+    background-color: white;
+}
+
+
+.fea {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.fe{
+    
+     height: 350px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid #eeeeee;
+    border-radius: 8px;
+     padding: 20px;
+}
+.lev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 80px 8%;
+    background-color: #f5f7f8;
+}
+
+.le {
+    width: 45%;
+    
+}
+.dis{
+    display: flex;
+    gap: 20px;
+padding-left: 20%;
+align-items: center;
+
+}
+.sou {
+    filter: brightness(0) saturate(100%) invert(56%)sepia(85%)saturate(500%) hue-rotate(85deg);
+}
+
+.buy {
+    
+    
+    border: 3px solid black;
+    padding: 16px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.bu{
+    padding-top: 5px;
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+color: #086dc3;
+}
+.comm{
+    color: #086dc3;
+}
+.story{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cod {
+    width: 45%;
+    height: 50vh;
+    background-color: #20252b;
+    color: white;
+    border-radius: 8px;
+    padding: 25px;
+
+    
+}
+.col{
+    color:blue ;
+}
+.coll{
+    color: rgb(13, 236, 13);
+}
+.colll{
+    color: rgb(236, 236, 8);
+}
+
+
+
+.code-box pre {
+    padding: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.te {
+    
+    align-items: center;
+    gap: 50px;
+    padding: 80px 10%;
+    background-color: white;
+}
+
+.tes {
+    width: 10%;
+    padding: 10px;
+    margin-left: 35%;
+    
+}
+
+
+
+.quote {
+    font-size: 23px;
+    line-height: 1.7;
+    color: #438b2b;
+}
+.font{
+    font-family: Metropolis, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+color: #000;
+}
+.blu{
+   color: #086dc3; 
+   font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+
+}
+.mite{
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+color: #000;
+padding-top: 10px;
+padding-bottom: 15px;
+}
+
+.ge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 120px 10%;
+     background-color: #EBF2F2;
+}
+
+.spr {
+    padding: 55px 8% 20px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1.3fr repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-logo span {
+    color: #7fbd42;
+    font-size: 35px;
+}
+
+.moto{
+    font-size: 17px;
+}
+.motor{
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.charge{
+    display: block;
+    padding-top: 10px;
+    color: #8E7F7B;
+    text-decoration: none;
+    
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.charge:hover{
+    color: #438b2b;
+}
+
+.str {
+    border: none;
+    border-top: 1px solid #555555;
+    margin: 35px 0 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.code-box {
+    width: 55%;
+    background-color: #20252b;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.code-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #343b42;
+}
+
+.code-box pre {
+    padding: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+
+.quote {
+    font-size: 23px;
+    line-height: 1.7;
+}
+
+
+.foo {
+    display: grid;
+    grid-template-columns: 1.3fr repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-logo span {
+    color: #7fbd42;
+    font-size: 35px;
+}
+.box{
+    border: 4px solid #ECF4F4;
+    height: 200px;
+    width: 400px;
+    padding: 30px;
+}
+.hi{
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #000;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.gi{
+    padding-top: 10px;
+}
+.br{
+    font-family: "Open Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+color: #000;
+}
+.tore{
+    font-family: "Open Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+color: #b5b5b5;
+padding-top: 20px;
+
+}
+
+
+
+
+
+
